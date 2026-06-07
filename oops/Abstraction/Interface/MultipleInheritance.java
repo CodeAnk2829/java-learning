@@ -1,7 +1,5 @@
 package oops.Abstraction.Interface;
 
-import javax.swing.ComponentInputMap;
-
 interface Printable {
     void getData();
     void print();

@@ -2,6 +2,7 @@ package lld.factorymethod;
 
 import java.util.*;
 
+import lld.factorymethod.client.BenchmarkService;
 import lld.factorymethod.client.DialogBox;
 import lld.factorymethod.client.LoggerManager;
 import lld.factorymethod.client.NotificationService;
@@ -28,6 +29,9 @@ public class Main {
         LoggerManager lManager = new LoggerManager(logLevel);
         lManager.displayLogs();
 
+        String benchmarkType = scanner.nextLine();
+        BenchmarkService bService = new BenchmarkService(benchmarkType);
+        bService.runBenchmark();
         scanner.close();
     }
 }

@@ -1,11 +1,8 @@
-package parkinglot;
+package parkinglot.origin.naive;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import parkinglot.origin.naive.ParkingLot;
-import parkinglot.origin.naive.ParkingSpot;
-import parkinglot.origin.naive.Ticket;
 import parkinglot.origin.utils.SpotType;
 import parkinglot.origin.utils.VehicleType;
 
